@@ -1,0 +1,159 @@
+/* Reset básico */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+  line-height: 1.6;
+  padding: 0;
+  margin: 0;
+}
+
+/* Cabeçalho */
+header {
+  background-color: #27ae60;
+  color: white;
+  padding: 20px 0;
+  text-align: center;
+}
+
+header h1 {
+  font-size: 2.5rem;
+}
+
+nav ul {
+  list-style: none;
+  margin-top: 10px;
+}
+
+nav ul li {
+  display: inline;
+  margin: 0 15px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+}
+
+/* Seções */
+.section {
+  padding: 40px;
+  margin: 20px 0;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+h2 {
+  text-align: center;
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.card {
+  background-color: #fff;
+  padding: 20px;
+  margin: 10px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-10px);
+}
+
+.card h3 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.card p {
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+/* Video Section */
+.video-section {
+  padding: 40px;
+  text-align: center;
+}
+
+.video-container {
+  margin: 20px 0;
+}
+
+iframe {
+  max-width: 100%;
+  border-radius: 8px;
+}
+
+/* Espaço para imagem */
+.image-section {
+  text-align: center;
+  margin: 40px 0;
+}
+
+.responsive-img {
+  width: 100%;
+  max-width: 1200px;
+  height: auto;
+  border-radius: 8px;
+}
+
+.zoom {
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+/* Redes sociais */
+.social-media {
+  text-align: center;
+  margin: 40px 0;
+}
+
+.social-buttons {
+  display: flex;
+  justify-content: center;
+}
+
+.social-button {
+  margin: 0 15px;
+  font-size: 2rem;
+  color: #333;
+  transition: color 0.3s;
+}
+
+.social-button:hover {
+  color: #27ae60;
+}
+
+.facebook {
+  color: #3b5998;
+}
+
+.twitter {
+  color: #1da1f2;
+}
+
+.instagram {
+  color: #e4405f;
+}
+
+/* Rodapé */
+footer {
+  background-color: #2c3e50;
+  color: white;
+  padding: 10px;
+  text-align: center;
+}
